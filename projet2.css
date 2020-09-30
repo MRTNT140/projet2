@@ -1,72 +1,115 @@
-strong
+*
 {
-	font-size: normal;
- color: red;	
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Arial;
 }
 h1
 {
 	font-size:40px;
-    font-family: Arial;
 	text-decoration: underline;
 	padding-top:40px;
-	padding-left:100px;
 }
 .pfp
 {
 	padding-top: 35px;
+	padding-bottom: 35px;
 }
 #side
 {
 	text-align: center;
 	width: 25%;
-	height: 100%;
-	background-color: #FFC107
+	background-color: #FFC107;
 }
-h2
+aside h2
 {
 	background-color: #757575;
 	color: #FFC107;
 }
-ul
+li
 {
-	text-align: left
+	padding-left: 40px;
+	text-align: left;
 }
-#conteneur
+.loisir
 {
-    display: flex;
+	padding-top: 50px;
 }
 .name
 {
 	color:#FFC107;
 }
-h1 + h3
-{
-	font-family:arial;
-	padding-left:200px;
-}
 .form
 {
 	padding-top: 80px;
-	padding-left:100px;
-	float: both;
 }
 #conteneur
 {
-	position:absolute;
-	left: 0px;
-	top: 0px;
+	display: flex;
+}
+h2 + p
+{
+	padding-bottom: 205px;
 }
 em
 {
   	font-style: normal;
-  	font-size: 45px;
-  	font-family: Arial;
+  	font-size: 30px;
   	text-align: center;
   	border-bottom: 3px #FFC107 solid;
   	border-right: 500px white solid;
 }
-span
+#Openclassroom
 {
-	margin-top: 100px;
-	margin-left: 100px;
+	padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#University
+{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+}
+.exp
+{
+	padding-top: 80px;
+}
+#Design1
+{
+
+	padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#Design2
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#Design3
+{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+}
+.rec
+{
+	padding-top: 80px;
+}
+#Recommandations
+{
+	padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#content
+{
+	padding-left: 100px;
 }
