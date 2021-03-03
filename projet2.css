@@ -10,13 +10,12 @@ body
 h1
 {
 	font-size:40px;
-	text-decoration: underline;
 	padding-top:40px;
 }
 .pfp
 {
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #side
 {
@@ -31,8 +30,16 @@ aside h2
 }
 li
 {
-	padding-left: 40px;
+	padding-left: 35px;
 	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.lorem
+{
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 .loisir
 {
@@ -42,8 +49,14 @@ li
 {
 	color:#FFC107;
 }
-.form
+.underline
 {
+	text-decoration: underline;
+	text-decoration-color: #FFC107;
+}
+.icon
+{
+	width: 10%;
 	padding-top: 80px;
 }
 #conteneur
@@ -58,58 +71,149 @@ em
 {
   	font-style: normal;
   	font-size: 30px;
-  	text-align: center;
-  	border-bottom: 3px #FFC107 solid;
-  	border-right: 500px white solid;
 }
 #Openclassroom
 {
+	width: 100%;
 	padding-top: 40px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
 }
 #University
 {
+	width: 100%;
     display: flex;
     justify-content: space-between;
     height: 25px;
 }
-.exp
+.Design
 {
-	padding-top: 80px;
-}
-#Design1
-{
-
+	width: 100%;
 	padding-top: 40px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
-}
-#Design2
-{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-}
-#Design3
-{
-    display: flex;
-    justify-content: space-between;
-    height: 25px;
-}
-.rec
-{
-	padding-top: 80px;
 }
 #Recommandations
 {
+	width: 95%;
 	padding-top: 40px;
+	padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
 #content
 {
-	padding-left: 100px;
+	padding-left: 70px;
+}
+.info
+{
+	padding-top: 12px;
+	font-size: 12px;
+}
+.text
+{
+	padding-top: 12px;
+}
+.box
+{
+	padding-bottom: 10px;
+	width: 115%;
+	border-bottom: 3px #FFC107 solid;
+}
+	.designinc
+{
+		padding-top: 10px;
+}
+h2
+{
+	font-weight: normal;
+}
+.reco
+{
+	font-size: 13px;
+}
+.dot
+{
+	float: left;
+}
+.icon3
+{
+	width: 10%;
+}
+@media all and (max-width:480px)
+{
+		#conteneur
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#side
+	{
+		width: 100%;
+	}
+	.pfp
+	{
+		width: 30%;
+	}
+	h2 + p
+	{
+		padding-bottom: 35px;
+	}
+	#content
+	{
+		padding-left: 25px;
+		width: 85%;
+	}
+	.box
+	{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	.icon
+	{
+		margin-top: 200px;
+		width: 20%;
+	}
+	h2 + h3
+	{
+		margin-top: -150px;
+	}
+	em
+	{
+		font-size: 20px;
+	}
+	#Openclassroom
+	{
+		width: 90%;
+	}
+	#University
+	{
+		padding-top: 100px;
+		width: 90%;
+	}
+	.Design
+	{
+		width: 90%;
+	}
+	.info
+	{
+		margin-left: 20%;
+	}
+	#Recommandations
+	{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+
+	}
+	.reco
+	{
+		padding-bottom: 25px;
+	}
+	.icon3
+	{
+		padding-top: 60px;
+		width: 20%;
+	}
 }
