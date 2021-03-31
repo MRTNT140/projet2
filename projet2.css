@@ -9,13 +9,27 @@ body
 }
 h1
 {
+	font-weight: normal;
 	font-size:40px;
-	padding-top:40px;
+	padding-top:60px;
+}
+h2
+{
+	font-weight: normal;
+}
+h3
+{
+	padding-top: 50px;
+}
+h4
+{
+	font-weight: normal;
+	font-size: 17px;
 }
 .pfp
 {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 #side
 {
@@ -23,10 +37,16 @@ h1
 	width: 25%;
 	background-color: #FFC107;
 }
-aside h2
+#side h2
 {
+	padding-top: 3px;
 	background-color: #757575;
 	color: #FFC107;
+	padding-bottom: 3px;
+}
+ul + h2
+{
+	font-weight: bold;
 }
 li
 {
@@ -35,15 +55,23 @@ li
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+nav + h2
+{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
 .lorem
 {
+	text-align: justify;
 	padding-top: 25px;
-	padding-right: 25px;
-	padding-left: 25px;
+	padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 300px;
 }
 .loisir
 {
-	padding-top: 50px;
+	padding-left: 20px;
+	padding-top: 40px;
 }
 .name
 {
@@ -63,39 +91,35 @@ li
 {
 	display: flex;
 }
-h2 + p
-{
-	padding-bottom: 205px;
-}
 em
 {
   	font-style: normal;
   	font-size: 30px;
 }
-#Openclassroom
+#openclassroom
 {
-	width: 100%;
+	width: 90%;
 	padding-top: 40px;
     display: flex;
     justify-content: space-between;
 }
-#University
+#university
 {
-	width: 100%;
+	width: 90%;
     display: flex;
     justify-content: space-between;
     height: 25px;
 }
-.Design
+.design
 {
-	width: 100%;
+	width: 90%;
 	padding-top: 40px;
     display: flex;
     justify-content: space-between;
 }
-#Recommandations
+#recommandations
 {
-	width: 95%;
+	width: 85%;
 	padding-top: 40px;
 	padding-bottom: 100px;
     display: flex;
@@ -107,7 +131,6 @@ em
 }
 .info
 {
-	padding-top: 12px;
 	font-size: 12px;
 }
 .text
@@ -120,13 +143,9 @@ em
 	width: 115%;
 	border-bottom: 3px #FFC107 solid;
 }
-	.designinc
+.designinc
 {
-		padding-top: 10px;
-}
-h2
-{
-	font-weight: normal;
+	padding-top: 10px;
 }
 .reco
 {
@@ -150,6 +169,14 @@ h2
 	#side
 	{
 		width: 100%;
+	}
+	.lorem
+	{
+		padding-bottom: 50px;
+	}
+	.loisir
+	{
+		padding-bottom: 30px;
 	}
 	.pfp
 	{
@@ -183,16 +210,16 @@ h2
 	{
 		font-size: 20px;
 	}
-	#Openclassroom
+	#openclassroom
 	{
 		width: 90%;
 	}
-	#University
+	#university
 	{
 		padding-top: 100px;
 		width: 90%;
 	}
-	.Design
+	.design
 	{
 		width: 90%;
 	}
@@ -200,12 +227,11 @@ h2
 	{
 		margin-left: 20%;
 	}
-	#Recommandations
+	#recommandations
 	{
 		width: 90%;
 		display: flex;
 		flex-direction: column;
-
 	}
 	.reco
 	{
