@@ -105,6 +105,7 @@ em
 }
 #university
 {
+	padding-top: 40px;
 	width: 90%;
     display: flex;
     justify-content: space-between;
@@ -159,9 +160,9 @@ em
 {
 	width: 10%;
 }
-@media all and (max-width:480px)
+@media all and (max-width:850px)
 {
-		#conteneur
+	#conteneur
 	{
 		display: flex;
 		flex-direction: column;
@@ -216,7 +217,7 @@ em
 	}
 	#university
 	{
-		padding-top: 100px;
+		padding-top: 50px;
 		width: 90%;
 	}
 	.design
